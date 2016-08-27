@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+html(lang="en")
+head
+    meta(charset="UTF-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    title Portfolio
+    link(rel="stylesheet", href="css/main.css")
+body
+    nav.nav
+        div.logo
+            img(src="images/logo.png", alt="")
+            p {Html5, CSS3, JS}
+        ul.menu
+            li.menu__item: a(href="#about") About
+            li.menu__item: a(href="#skills") Skills
+            li.menu__item: a(href="#portfolio") Portfolio
+            li.menu__item: a(href="#contacts") Contacts
+            
+    section.about#about
+        h1 Greetings!
+        p My name is Ernest, I live in Dnepropetrovsk and I am a junior frontend developer
+        
+    section.skills#skills
+        section.wrapper
+            h2 Skills & Technologies
+            div.skills-wrapper
+                article
+                    h3 Layout:
+                    ul
+                        li HTML/HTML 5
+                        li CSS/CSS3, FLex-box grid
+                        li Bootstrap/Foundation/Skeleton
+                        li Animations, SVG and retina
+                        li Template engines (Jade)
+                        li SASS(SCSS)/LESS/Stylus
+                article
+                    h3 ECMAScript:
+                    ul
+                        li Vanilla JS (ES5)
+                        li GULP
+                        li JQuery, AJAX
+                        //li ES6
+                article
+                    h3 Learning in progress:
+                    ul
+                        li ReactJS + Redux
+                        li Node.JS
+                    
+    section.portfolio#portfolio
+        h2 My Projects
+        ul.projects
+            li.projects__item
+                img(src="images/projects/p1.jpg", alt="")
+                a(href="http://ernest0203.github.io/Acubens/build/" target="_blank") Preview
+                a(href="https://github.com/Ernest0203/Acubens" target="_blank") Sources
+            li.projects__item
+                img(src="images/projects/p2.jpg", alt="")
+                a(href="https://ernest0203.github.io/Fitness/build/" target="_blank") Preview
+                a(href="https://github.com/Ernest0203/Fitness" target="_blank") Sources
+            li.projects__item
+                img(src="images/projects/p3.jpg", alt="")
+                a(href="https://ernest0203.github.io/Moose/" target="_blank") Preview
+                a(href="https://github.com/Ernest0203/Moose" target="_blank") Sources
+            li.projects__item
+                img(src="images/projects/p4.jpg", alt="")
+                a(href="https://ernest0203.github.io/Petroleum/" target="_blank") Preview
+                a(href="https://github.com/Ernest0203/Petroleum" target="_blank") Sources
+            li.projects__item
+                img(src="images/projects/p5.jpg", alt="")
+                a(href="https://ernest0203.github.io/Sedona/" target="_blank") Preview
+                a(href="https://github.com/Ernest0203/Sedona" target="_blank") Sources
+            li.projects__item
+                img(src="images/projects/p6.jpg", alt="")
+                a(href="https://ernest0203.github.io/Luxenergy/" target="_blank") Preview
+                a(href="https://github.com/Ernest0203/Luxenergy" target="_blank") Sources
+                
+    footer.contacts#contacts
+        h2 Contacts
+        p If you have any questions or proposals you can send me a message
+        div.e-mail
+            span E-MAIL:
+            a(href="mailto:ernest2332@gmail.com") ernest2332@gmail.com
+        div.skype
+            span SKYPE:
+            a(href="skype:bigben03") bigben03
+            
+    script(src="js/libs.min.js")
+    script(src="js/main.js")
